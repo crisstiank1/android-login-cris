@@ -1,10 +1,11 @@
 // presentation/auth/register/RegisterViewModel.kt
-package com.tuapp.presentation.auth.register
+package com.example.authandroid.auth.register
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.tuapp.core.util.Result
 import com.tuapp.domain.usecase.RegisterUseCase
+import com.tuapp.presentation.auth.register.RegisterUiState
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 import kotlinx.coroutines.flow.MutableStateFlow
